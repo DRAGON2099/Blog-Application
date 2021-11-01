@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom";
 import "./post.css";
 
-export default function Post({ img }) {
+export default function Post({img}) {
   return (
     <div className="post">
-      <img className="postImg" src={img} alt="" />
+      <img
+        className="postImg"
+        src={img}
+        alt=""
+      />
       <div className="postInfo">
         <div className="postCats">
           <span className="postCat">
